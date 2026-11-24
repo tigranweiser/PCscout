@@ -467,3 +467,20 @@ html:not(.js) body[data-offline]:has([data-page^="/ratgeber/"]:target,[data-page
 .article-page .prose .article-table-scroll:focus-visible{outline:2px solid #48672c;outline-offset:3px}
 .article-page .prose p{overflow-wrap:break-word}
 @media(max-width:680px){.article-page .prose h3{font-size:18px}}
+
+/* Focused additions for the offer comparisons. */
+.budget-advice{max-width:100%;margin-top:42px;margin-bottom:30px}
+.budget-advice section>p{max-width:820px;font-size:16px;line-height:1.75}
+.budget-advice h2{max-width:900px}
+.budget-table{min-width:820px;font-size:14px}
+.budget-table th[scope=row]{background:#f5f7f0;min-width:160px}
+.budget-table tbody td{min-width:180px}
+.table-price{display:block;margin-top:8px;font-size:20px;white-space:nowrap;color:var(--ink)}
+.budget-advice a{color:#355f25;text-decoration:underline;text-underline-offset:3px}
+.budget-advice .comparison-method{max-width:820px;border-top:1px solid var(--rule);padding-top:18px;font-size:14px;color:var(--muted)}
+.availability-note{font-size:14px!important;color:var(--muted)!important}
+.card-details{font-size:14px;font-weight:650;color:#3d582a}
+.detail .fact-list dd{overflow-wrap:anywhere}
+.detail .fact-list{font-size:14px}
+.detail .fact-list>div{font-size:14px}
+@media(max-width:700px){.budget-advice{margin-top:30px}.budget-advice h2{font-size:26px}.budget-table{min-width:780px}}
